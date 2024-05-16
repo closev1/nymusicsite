@@ -120,3 +120,18 @@ margin: auto;
     min-height: 320vpx;
     padding: 100px;
 }
+
+button.btn-toggle-menu svg {
+    fill: #E7E7E7;
+}
+
+button.btn-toggle-menu span {
+    color: #E7E7E7;
+}
+
+h5 {
+  color: #3F3F3F;
+    font-family: 'Bungee';
+    font-size: 20px;
+    font-weight: 300;
+}
