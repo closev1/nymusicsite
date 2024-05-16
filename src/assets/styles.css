@@ -1,1 +1,122 @@
-/* you can put styles in here :) */
+body {
+    background-color: #FFF;
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color: #3F3F3F;
+    border-bottom: 1px solid #E7E7E7;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+  }
+  
+  ul {
+    margin: 30px auto;
+    padding: 0 20px;
+    text-align: center;
+  }
+  
+  li {
+    color: #FFF;
+    font-family: 'Bungee';
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 80px;  
+  }
+  
+  li:hover {
+    color: #BA0000;
+  }
+
+  h3:hover {
+    color: #BA0000;
+  }
+  h1 {
+    color: #3F3F3F;
+    font-family: 'Bungee';
+    font-size: 32px;
+    font-weight: 300;
+    text-transform: uppercase;
+  }
+  
+  h2 {
+    color: #3F3F3F;
+    font-family: 'Bungee';
+    font-size: 65px;
+    font-weight: 100;
+    margin: 0 auto 50px auto
+  }
+  
+  h3 {
+    color: #3F3F3F;
+    font-family: 'Bungee', ;
+    font-size: 65px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 20px;
+  }
+  
+  h4 {
+    color: #E7E7E7;
+    font-family: 'Bungee', ;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+    padding: 30px;
+    background-color: #3F3F3F;
+  }
+  h5 {
+    color: #E7E7E7;
+    font-family: 'Bungee', ;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 700;
+    padding: 30px;
+  }
+  
+  p {
+    color: #333;
+    font-family: 'Bungee';
+    font-size: 18px;
+  }
+  
+  footer {
+      background-color: #3F3F3F;
+      border-bottom: 1px solid #E7E7E7;
+      width: 100%;
+      z-index: 10;
+  }
+  
+  .welcome {
+    background-image: url('Frame\ 2.png');
+    background-size: cover;
+height: 466px;
+align-items: center;
+flex-shrink: 0;
+  }
+  
+  .question {
+    text-align: center;
+    position: relative;
+    top: 40px;
+  }
+  
+  .answer { background-image: url('Rectangle\ 16.png');
+    background-size: cover;
+height: 500px;
+align-items: center;
+flex-shrink: 0;
+margin: auto;
+  }
+  
+
+  .concerts {
+    background-image: url('vinyl.jpg');
+    background-size: cover;
+    min-height: 320vpx;
+    padding: 100px;
+}
