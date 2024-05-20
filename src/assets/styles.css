@@ -1,149 +1,176 @@
+html,body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+
 body {
-    background-color: #FFF;
-    margin: 0 auto;
-  }
-  
-  header {
-    background-color: #3F3F3F;
-    border-bottom: 1px solid #E7E7E7;
-    position: fixed;
-    width: 100%;
-    z-index: 10;
-  }
-  
-  ul {
-    margin: 30px auto;
-    padding: 0 20px;
-    text-align: center;
-  }
-  
-  li {
-    color: #FFF;
-    font-family: 'Bungee';
-    font-size: 15px;
-    font-weight: 300;
-    text-transform: uppercase;
-    display: inline-block;
-    width: 80px;  
-  }
-  
-  li:hover
-  {
-    color: #BA0000;
-  }
+  background-color: #FFF;
+  margin: 0 auto;
+  font-family: 'Jura', sans-serif;
+}
 
-  h3:hover {
-    color: #BA0000;
-  }
+header {
+  background-color: #3F3F3F;
+  border-bottom: 1px solid #E7E7E7;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
 
-  h1 {
-    color: #3F3F3F;
-    font-family: 'Bungee';
-    font-size: 32px;
-    font-weight: 300;
-    text-transform: uppercase;
-  }
-  
-  h2 {
-    text-align: center;
-    color: #3F3F3F;
-    font-family: 'Bungee';
-    font-size: 65px;
-    font-weight: 100;
-    margin: 0 auto 50px auto
-    
-  }
-  
-  h3 {
-    color: #3F3F3F;
-    font-family: 'Bungee', ;
-    font-size: 65px;
-    text-align: center;
-    font-weight: 700;
-    text-transform: uppercase;
-    padding: 20px;
-  }
-  
-  h4 {
-    color: #E7E7E7;
-    font-family: 'Jura', ;
-    font-size: 35px;
-    text-align: center;
-    font-weight: 700;
-    padding: 30px;
-    background-color: #3F3F3F;
-  }
-  h5 {
-    color: #E7E7E7;
-    font-family: 'Bungee', ;
-    font-size: 15px;
-    text-align: center;
-    font-weight: 700;
-    padding: 30px;
-  }
-  
-  p {
-    color: #333;
-    font-family: 'Bungee';
-    font-size: 18px;
-  }
-  
-  footer {
-      background-color: #3F3F3F;
-      border-bottom: 1px solid #E7E7E7;
-      width: 100%;
-      z-index: 10;
-  }
-  
-  .welcome {
-    background-image: url('Frame\ 2.png');
-    background-size: cover;
-height: 466px;
-align-items: center;
-flex-shrink: 0;
-  }
-  
-  .question {
-    text-align: center;
-    position: relative;
-    top: 40px;
-  }
-  
-  .answer { background-image: url('Rectangle\ 16.png');
-    background-size: cover;
-height: 500px;
-align-items: center;
-flex-shrink: 0;
-margin: auto;
-  }
-  
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  .concerts {
-    background-image: url('vinyl.jpg');
-    background-size: cover;
-    min-height: 320vpx;
-    padding: 100px;
+h1,
+h2,
+h3,
+h5 {
+  font-family: 'Bungee', sans-serif;
+}
+
+ul {
+  margin: 30px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+li {
+  color: #FFF;
+  font-family: 'Bungee';
+  font-size: 15px;
+  font-weight: 300;
+  text-transform: uppercase;
+  display: inline-block;
+  width: 80px;
+}
+
+li:hover {
+  color: #BA0000;
+}
+
+h3:hover {
+  color: #BA0000;
+}
+
+h1 {
+  color: #3F3F3F;
+
+  font-size: 32px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+h2 {
+  text-align: center;
+  color: #3F3F3F;
+  margin-top: 0px;
+  font-size: 65px;
+  font-weight: 100;
+
+}
+
+h3 {
+  color: #3F3F3F;
+  font-size: 65px;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 20px;
+}
+
+h4 {
+  color: #E7E7E7;
+
+  font-size: 35px;
+  text-align: center;
+  font-weight: 700;
+  padding: 30px;
+  background-color: #3F3F3F;
+}
+
+h5 {
+  color: #E7E7E7;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 700;
+  padding: 30px;
+}
+
+p {
+  color: #333;
+  font-size: 18px;
+  max-width: 700px;
+}
+
+footer {
+  background-color: #3F3F3F;
+  border-bottom: 1px solid #E7E7E7;
+  width: 100%;
+  z-index: 10;
+}
+
+.welcome {
+  background-image: url('Frame\ 2.png');
+  background-size: cover;
+  height: 466px;
+  align-items: center;
+  flex-shrink: 0;
+  width: 100%;
+  margin-top: -50px;
+}
+
+.question {
+  text-align: center;
+  position: relative;
+  top: 40px;
+}
+
+.answer {
+  background: #D9d9d9;
+  border: 10px solid #000;
+  background-size: cover;
+  align-items: center;
+  flex-shrink: 0;
+  margin: auto;
+}
+
+
+.concerts {
+  background-image: url('vinyl.jpg');
+  background-size: cover;
+  min-height: 320vpx;
+  padding: 100px;
+  width: 100%;
 }
 
 button.btn-toggle-menu svg {
-    fill: #E7E7E7;
+  fill: #E7E7E7;
 }
 
 button.btn-toggle-menu span {
-    color: #E7E7E7;
+  color: #E7E7E7;
 }
 
 h6 {
   color: #3F3F3F;
-    font-family: 'Jura';
-    font-size: 20px;
-    font-weight: 300;
-    align-content: center;
-    padding: 80px;
+  font-size: 20px;
+  font-weight: 300;
+  align-content: center;
+  padding: 80px;
 }
 
-.bungee-regular {
-  font-family: "Bungee", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+nav a {
+  color: #E7E7E7;
+}
+
+nav a:hover {
+
+  color: #ff4545;
+}
+
+.red {
+  color: #BA0000;
 }

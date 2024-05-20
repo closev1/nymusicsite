@@ -118,20 +118,21 @@
   z-index: 1000;
 }
 .btn-toggle-menu:hover {
-  background-color: white;
 }
 /* this makes sure the header doesn't cover any page content */
 main {
   margin-top: var(--header-height);
+  padding-top: 50px;
 }
 
 /* this media query sets the point where the layout transitions from top bar to hamburger */
-@media (min-width: 640px) {
+@media (min-width: 1180px) {
   /* this makes the top bar menu items go across in a row on desktop */
   nav.main-nav {
     display: flex;
     flex-direction: row;
     align-items: center;
+    width: 100%;
   }
   /* this sets the gap between the logo and the nav items */
   .main-nav-container {
