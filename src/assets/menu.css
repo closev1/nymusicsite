@@ -118,6 +118,7 @@
   z-index: 1000;
 }
 .btn-toggle-menu:hover {
+  color: #ff4545;
 }
 /* this makes sure the header doesn't cover any page content */
 main {

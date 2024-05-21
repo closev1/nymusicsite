@@ -26,7 +26,8 @@ main {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: 'Bungee', sans-serif;
 }
 
@@ -50,19 +51,12 @@ li:hover {
   color: #BA0000;
 }
 
-h3:hover {
+h2:hover {
   color: #BA0000;
 }
 
-h1 {
-  color: #3F3F3F;
-
-  font-size: 32px;
-  font-weight: 300;
-  text-transform: uppercase;
-}
-
-h2 {
+h1 
+{
   text-align: center;
   color: #3F3F3F;
   margin-top: 0px;
@@ -71,13 +65,23 @@ h2 {
 
 }
 
-h3 {
+h2 {
   color: #3F3F3F;
   font-size: 65px;
   text-align: center;
   font-weight: 700;
   text-transform: uppercase;
   padding: 20px;
+}
+
+h3 {
+  color: #E7E7E7;
+
+  font-size: 35px;
+  text-align: center;
+  font-weight: 700;
+  padding: 30px;
+  background-color: #3F3F3F;
 }
 
 h4 {
@@ -88,6 +92,10 @@ h4 {
   font-weight: 700;
   padding: 30px;
   background-color: #3F3F3F;
+}
+
+h4:hover {
+  color: #ff4545;
 }
 
 h5 {
@@ -153,15 +161,8 @@ button.btn-toggle-menu span {
   color: #E7E7E7;
 }
 
-h6 {
-  color: #3F3F3F;
-  font-size: 20px;
-  font-weight: 300;
-  align-content: center;
-  padding: 80px;
-}
-
-nav a {
+nav a 
+{
   color: #E7E7E7;
 }
 
