@@ -78,7 +78,6 @@ h2 {
 
 h3 {
   color: #E7E7E7;
-
   font-size: 35px;
   text-align: center;
   font-weight: 700;
@@ -214,4 +213,8 @@ text-decoration: none;
   background: #FFF;
   border: 10px solid #333;
   max-height: 80px;
+}
+
+.ff-form h3 {
+  color: #E7E7E7;
 }
