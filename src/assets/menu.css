@@ -143,6 +143,7 @@ main {
   .nav-items-list {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     position: static;
     height: auto;
     gap: 1rem;

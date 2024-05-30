@@ -86,14 +86,14 @@ h3 {
   background-color: #3F3F3F;
 }
 
-h4 {
+.underline h4 {
   color: #E7E7E7;
-
   font-size: 45px;
   text-align: center;
   font-weight: 700;
   padding: 30px;
   background-color: #3F3F3F;
+  
 }
 
 h4:hover {
@@ -203,7 +203,11 @@ nav a:hover {
 
 .underline {
 color: #ff4545;
-text-decoration: underline;
+text-decoration: none;
+}
+
+.underline:hover {
+  text-decoration: underline;
 }
 
 .logo {
@@ -243,6 +247,7 @@ text-decoration: underline;
   display: flex;
   height: 10%;
   justify-content: space-between;
+
   padding: 0 20px;
   color: #3F3F3F;
   
