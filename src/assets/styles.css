@@ -178,3 +178,13 @@ nav a:hover {
 .red {
   color: #BA0000;
 }
+
+.small {
+  width: 300px;
+  height: 280px;
+  margin: 20px;
+}
+
+.large {
+  width: 500px;
+}
